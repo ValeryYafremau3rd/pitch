@@ -1,0 +1,258 @@
+export const MAJOR = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": false,
+  E: true,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: true,
+  "A#Bb": false,
+  B: true,
+};
+
+export const NATURAL_MINOR = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": true,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const HARMONIC_MINOR = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": true,
+  A: false,
+  "A#Bb": false,
+  B: true,
+};
+
+export const MELODIC_MINOR = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: true,
+  "A#Bb": false,
+  B: true,
+};
+
+export const PENTATONIC = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": false,
+  E: true,
+  F: false,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: true,
+  "A#Bb": false,
+  B: false,
+};
+
+export const MINOR_PENTATONIC = {
+  C: true,
+  "C#Db": false,
+  D: false,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const BLUES = {
+  C: true,
+  "C#Db": false,
+  D: false,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": true,
+  G: true,
+  "G#Ab": false,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const IONIAN = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": false,
+  E: true,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: true,
+  "A#Bb": false,
+  B: true,
+};
+
+export const DORIAN = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: true,
+  "A#Bb": true,
+  B: false,
+};
+
+export const PHRYGIAN = {
+  C: true,
+  "C#Db": true,
+  D: false,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": true,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const LYDIAN = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": false,
+  E: true,
+  F: false,
+  "F#Gb": true,
+  G: true,
+  "G#Ab": false,
+  A: false,
+  "A#Bb": false,
+  B: true,
+};
+
+export const MIXOLYDIAN = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": false,
+  E: true,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": false,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const AEOLIAN = {
+  C: true,
+  "C#Db": false,
+  D: true,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": false,
+  G: true,
+  "G#Ab": true,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const LOCRIAN = {
+  C: true,
+  "C#Db": true,
+  D: false,
+  "D#Eb": true,
+  E: false,
+  F: true,
+  "F#Gb": true,
+  G: false,
+  "G#Ab": true,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const CHROMATIC = {
+  C: true,
+  "C#Db": true,
+  D: true,
+  "D#Eb": true,
+  E: true,
+  F: true,
+  "F#Gb": true,
+  G: true,
+  "G#Ab": true,
+  A: true,
+  "A#Bb": true,
+  B: true,
+};
+
+export const WHOLE = {
+  C: true,
+  "C#Db": true,
+  D: true,
+  "D#Eb": true,
+  E: true,
+  F: false,
+  "F#Gb": true,
+  G: false,
+  "G#Ab": true,
+  A: false,
+  "A#Bb": true,
+  B: false,
+};
+
+export const SCALES = {
+  MAJOR,
+  NATURAL_MINOR,
+  HARMONIC_MINOR,
+  MELODIC_MINOR,
+  PENTATONIC,
+  MINOR_PENTATONIC,
+  BLUES,
+  IONIAN,
+  DORIAN,
+  PHRYGIAN,
+  LYDIAN,
+  MIXOLYDIAN,
+  AEOLIAN,
+  LOCRIAN,
+  CHROMATIC,
+  WHOLE,
+};
